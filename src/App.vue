@@ -35,7 +35,7 @@
             <grid-layout
                     :layout="layout"
                     :col-num="parseInt(colNum)"
-                    :row-height="rowHeight"
+                    :row-height="parseInt(rowHeight)"
                     :is-draggable="draggable"
                     :is-resizable="resizable"
                     :is-mirrored="mirrored"
